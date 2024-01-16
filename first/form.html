@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="userform">
+        <form action="b.php" name="m" method="post">
+
+            <h1>Form</h1>
+            <table border="1" align="center" celspacing="0" celpadding="10">
+                <tr>
+                    <td>Name</td>
+                    <td> <input required type="text" name="nm" id=""></td>
+                </tr>
+                <tr>
+                    <td> Email</td>
+                    <td> <input required type="email" name="email" id=""></td>
+                </tr>
+                <tr>
+                    <td> Male </td>
+                    <td><input required type="radio" name="r1" value="male" id=""></td>
+                </tr>
+                <tr>
+                    <td> Female </td>
+                    <td><input required type="radio" name="r1" value="female" id=""></td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td><input type="number" name="contact" id=""></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <select name="city" id="">
+                            <option value="udaipur">Udaipur</option>
+                            <option value="jaipur">Jaipur</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr colspan="2">
+                    <td> <input class="but1" type="submit" value="SUBMIT"></td>
+                    <td> <input class="but2" type="reset" value="RESET"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script src="demo.js"></script>
+</body>
+
+</html>

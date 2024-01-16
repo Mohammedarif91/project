@@ -1,0 +1,7 @@
+#userform{
+    width: 500px;
+    height: 600px;
+    box-shadow: 10px 10px 50px grey;
+    background: linear-gradient(red , blue);
+    margin: auto;
+}
